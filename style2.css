@@ -266,3 +266,140 @@ footer {
     padding: 20px;
     font-size: 14px;
 }
+
+/* ============================
+   RESPONSIVE — TABLET (max 900px)
+============================ */
+@media (max-width: 900px) {
+    #home {
+        margin: 80px 20px 20px 20px;
+        padding: 20px;
+        border-radius: 30px;
+    }
+
+    #contenido {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #texth h1 {
+        margin-left: 10px;
+    }
+
+    #texth p {
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+    #texth button {
+        margin-left: 10px;
+        width: 220px;
+        padding: 15px;
+    }
+
+    #imageh img {
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    #cursos h1 {
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+    #showc {
+        margin-left: 20px;
+        margin-right: 20px;
+        gap: 30px;
+    }
+
+    nav ul {
+        gap: 6px;
+    }
+
+    nav button {
+        padding: 7px 10px;
+        font-size: 13px;
+    }
+}
+
+/* ============================
+   RESPONSIVE — MÓVIL (max 600px)
+============================ */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 15px;
+        gap: 8px;
+    }
+
+    nav h1 {
+        font-size: 1.3rem;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    nav button {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+
+    #home {
+        margin: 130px 10px 20px 10px; /* más margen top porque el nav ocupa más altura en móvil */
+        border-radius: 20px;
+        padding: 15px;
+    }
+
+    #texth h1 {
+        margin-left: 0;
+        font-size: 1.5rem;
+    }
+
+    #texth p {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    #texth button {
+        margin-left: 0;
+        width: 100%;
+        padding: 15px;
+    }
+
+    #imageh {
+        width: 100%;
+        text-align: center;
+    }
+
+    #imageh img {
+        height: 160px;
+    }
+
+    #cursos h1 {
+        margin-left: 20px;
+        font-size: 1.3rem;
+        margin-top: 30px;
+    }
+
+    #showc {
+        flex-direction: column;
+        margin-left: 15px;
+        margin-right: 15px;
+        gap: 20px;
+    }
+
+    #tarjeta,
+    .cursos {
+        margin-bottom: 0;
+        min-width: unset;
+        width: 100%;
+    }
+
+    #morec {
+        width: 80%;
+    }
+}
