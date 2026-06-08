@@ -204,7 +204,7 @@ z-index: 100;
 
  .cursos{
   flex: 1;
-  min-width: 220;
+  min-width: 220px;
   padding-top: 5px;
   border-radius: 30px;
   color: white;
