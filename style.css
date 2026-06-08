@@ -66,13 +66,13 @@ z-index: 100;
    width: 18px;
    height: 18px;
  }
-
+ /*seccion home*/
  #home{
   display: flex;
   align-items: center;
   background-color: #d0ebf0;
   margin: 105px 300px 20px 100px;
-  padding: 20px 200px 0px 20px;
+  padding: 20px 40px 20px 20px;
   border-radius: 50px;
   z-index: 100;
  }
@@ -141,6 +141,8 @@ z-index: 100;
   margin-left: 40px;
  }
 
+
+  /*seccion cursos*/
  #cursos{
   position: relative;
   background-image: url(images/background3.png);
@@ -243,6 +245,9 @@ z-index: 100;
  }
 
 
+ @media (max-width: 900px) {
+
+ }
  
 
 
