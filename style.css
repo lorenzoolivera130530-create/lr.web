@@ -226,13 +226,13 @@ z-index: 100;
 
  .cursos button {
   margin-top: 25px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
  }
 
  #morec {
   display: block;
   border-radius: 100px;
-  margin: 20px auto 30px auto;
+  margin: 0px auto 30px auto;
   padding: 10px 30px;
  }
 

@@ -1,20 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="UTF-8">   
+        <meta charset="UTF-8">  
+        <meta name="description" content="Una pagina diseñada y desarrollada para tu aprendizaje y capacitacion, contamos con diferentes cursos que se pueden adaptar a tus nesesidad y ritmo"> 
         <title>Learn web</title> 
         <link rel="stylesheet" href="/style.css">
         <link rel="icon" href="icons/book.png">
+        <script src="/js/fix.js" defer></script>
     </head>  
     <body>
-        <nav id="tab">
-            <h1 id="textc">Learn web<span class="icon"><img src="icons/book.png" width="50px" height="50px"></span></h1>
-            <ul>
-                <li><button onclick="location.href='#backgroundhome'">Inicio <img src="icons/home.png"></button></li>
-                <li><button onclick="location.href='#cursos'">Cursos <img src="icons/file.png"></button></li>
-                <li><button onclick="location.href='#'">Sobre Nosotros<img src="icons/question.png"></button></li>
-            </ul>
-        </nav>
+    <div id="nav-placeholder"></div>
     <div id="backgroundhome"></div>
     <section id="home">
         <div id="contenido">
@@ -52,10 +47,8 @@
         </div>
             <button id="morec">Ver Mas</button>
     </section>
-    <footer>
-        <p>© 2026 LearnApp - Todos los derechos reservados</p>
-    </footer>
-    <script src="script.js"></script>
+    <div id="foot-placeholder"></div>
+    <script src="/js/script.js" defer></script>
     </body>  
     
 </html>
