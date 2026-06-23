@@ -9,9 +9,6 @@ const nav = `<nav id="tab">
 const footer = `<footer>
         <p>© 2026 LearnApp - Todos los derechos reservados</p>
     </footer>`
-const head = 
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelector("#nav-placeholder").innerHTML = nav
-    document.querySelector("#foot-placeholder").innerHTML = footer
-});
+document.querySelector("#nav-placeholder").innerHTML = nav
+document.querySelector("#foot-placeholder").innerHTML = footer
     

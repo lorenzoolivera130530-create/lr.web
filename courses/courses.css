@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ #courses {
+    margin: 100px 10px 0px 10px;
+    display: block;
+    justify-content: center;
+ }
+ #title {
+    font-family: Parisienne, cursive, bold;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+ }
+ #paragraph {
+    font-size: 18px;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: #70cbc9;
+    border-radius: 20px;
+    padding: 20px;
+ }
+ .card {
+
+ }
